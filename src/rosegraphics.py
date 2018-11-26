@@ -1804,7 +1804,7 @@ class SimpleTurtle(object):
         self._update_real_turtle()
         self._turtle.right(angle)
 
-    def go_to(self, point):
+    def go_to(self, point: object) -> object:
         """
         Makes this SimpleTurtle go to the given rg.Point.
         (0, 0) is at the center of the window.
