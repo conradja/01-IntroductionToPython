@@ -48,7 +48,7 @@ import rosegraphics as rg
 
 ###############################################################################
 #
-# TODO: 3.
+# DONE: 3.
 #   Run this module.  A window will pop up and Turtles will move around.
 #   After the Turtles stop moving,
 #      ** click anywhere in the window to close the window **.
@@ -116,7 +116,7 @@ natasha.go_to(rg.Point(-100, 200))
 
 ###############################################################################
 #
-# TODO: 4.
+# DONE: 4.
 #   Add a few more lines of your own code to make one of the existing
 #   SimpleTurtles move some more and/or have different characteristics.
 #
@@ -126,10 +126,15 @@ natasha.go_to(rg.Point(-100, 200))
 #   As always, test by running the module.
 #
 ###############################################################################
+boris.speed = 10
+boris.pen =rg.Pen('blue', 15)
 
+boris.forward(30)
+boris.right(45)
+boris.forward(40)
 ###############################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       boris    natasha
@@ -153,6 +158,20 @@ natasha.go_to(rg.Point(-100, 200))
 #   As always, test by running the module.
 #
 ###############################################################################
+dog = rg.SimpleTurtle('turtle')
+dog.pen = rg.Pen('green', 30)
+dog.speed=4
+
+dog.forward(30)
+dog.right(270)
+dog.forward(70)
+dog.left(140)
+dog.backward(50)
+dog.speed=5
+dog.forward(90)
+dog.left(20)
+dog.forward(100)
+
 
 ###############################################################################
 #
